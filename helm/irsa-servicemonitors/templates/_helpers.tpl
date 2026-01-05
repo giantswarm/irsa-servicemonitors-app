@@ -42,5 +42,5 @@ app.kubernetes.io/managed-by: {{ .Release.Service }}
 {{- if .Values.releaseLabel }}
 release: {{ .Release.Name }}
 {{- end }}
-application.giantswarm.io/team: {{ index .Chart.Annotations "application.giantswarm.io/team" | quote }}
+application.giantswarm.io/team: {{ index .Chart.Annotations "io.giantswarm.application.team" | quote }}
 {{- end }}

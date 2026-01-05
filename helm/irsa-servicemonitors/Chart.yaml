@@ -1,11 +1,12 @@
 apiVersion: v2
-description: IRSA ServiceMonitors
 name: irsa-servicemonitors
-version: [[ .Version ]]
+version: 0.1.0-dev
+description: IRSA ServiceMonitors
 appVersion: 1.0.0
-annotations:
-  application.giantswarm.io/team: "phoenix"
 home: https://github.com/giantswarm/irsa-servicemonitors-app
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+annotations:
+  io.giantswarm.application.team: phoenix
 keywords:
   - monitoring
 restrictions:

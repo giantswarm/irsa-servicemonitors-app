@@ -1,18 +1,21 @@
 version: 2.1
 orbs:
-  architect: giantswarm/architect@4.27.0
+  architect: giantswarm/architect@6.11.0
 
 workflows:
-  version: 2
   build:
     jobs:
       - architect/push-to-app-catalog:
           context: architect
+          executor: app-build-suite
           name: "push-to-default-app-catalog"
           app_catalog: "default-catalog"
           app_catalog_test: "default-test-catalog"
           chart: "irsa-servicemonitors"
           filters:
-            # Trigger the job also on git tag.
+            branches:
+              ignore:
+                - main
+                - master
             tags:
               only: /^v.*/
