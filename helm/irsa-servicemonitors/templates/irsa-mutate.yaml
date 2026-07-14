@@ -8,6 +8,10 @@ metadata:
 spec:
   endpoints:
   - interval: 30s
+    relabelings:
+    - action: replace
+      targetLabel: probe_target
+      replacement: http-irsawebhook
     metricRelabelings:
     - action: replace
       sourceLabels:
