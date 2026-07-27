@@ -1,6 +1,6 @@
 apiVersion: v2
 name: irsa-servicemonitors
-version: 0.1.1
+version: 0.2.0
 description: IRSA ServiceMonitors
 appVersion: 1.0.0
 home: https://github.com/giantswarm/irsa-servicemonitors-app
