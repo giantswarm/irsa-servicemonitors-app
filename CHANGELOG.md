@@ -7,6 +7,8 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-07-27
+
 ### Fixed
 
 - Add `probe_target` label to ensure unique synthetic metrics
@@ -28,7 +30,8 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 - Create ServiceMonitors to scrape IRSA
 
 
-[Unreleased]: https://github.com/giantswarm/irsa-servicemonitors-app/compare/v0.1.1...HEAD
+[Unreleased]: https://github.com/giantswarm/irsa-servicemonitors-app/compare/v0.2.0...HEAD
+[0.2.0]: https://github.com/giantswarm/irsa-servicemonitors-app/compare/v0.1.1...v0.2.0
 [0.1.1]: https://github.com/giantswarm/irsa-servicemonitors-app/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/giantswarm/irsa-servicemonitors-app/compare/v0.0.1...v0.1.0
 [0.0.1]: https://github.com/giantswarm/irsa-servicemonitors-app/compare/v0.0.0...v0.0.1
